@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* src/components/Gallery/index.css */
+
+.gallery-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+}
+
+.title {
+  font-size: 24px;
+  color: #1e293b;
+}
+
+.description {
+  font-size: 16px;
+  color: #64748b;
+}
+
+.thumbnails-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* src/components/ThumbnailItem/index.css */
+
+.thumbnail-item {
+  margin: 5px;
+}
+
+.thumbnail-button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.thumbnail-image {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.thumbnail-item.active .thumbnail-image {
+  opacity: 1;
+  border: 2px solid #1e293b;
+  border-radius: 4px;
+}
