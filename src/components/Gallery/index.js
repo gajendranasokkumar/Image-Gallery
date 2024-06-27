@@ -89,7 +89,7 @@ const Gallery = () => {
         className="main-image"
       />
       <h1 className="title">Nature Photography</h1>
-      <p className="description">Nature Photography by Rahul</p>
+      <p className="description">Nature Photography by Gajendran</p>
       <ul className="thumbnails-list">
         {imagesList.map(image => (
           <ThumbnailItem
